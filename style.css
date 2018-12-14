@@ -1,0 +1,32 @@
+div{
+    border: 1px  solid red;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex: 1;
+    transition: all 1s
+  }
+  .red{
+   
+    width: 500px;
+    height: 500px;
+  }
+  .red.active{
+    background: red;
+  }
+  .blue.active{
+    background: blue;
+  }
+  .yellow.active{
+   background: yellow;
+  }
+  .purple.active{
+    background: purple;
+  }
+  .pink.active{
+    background: pink;
+    
+  }
+  .green.active{
+    background: green;
+  }
